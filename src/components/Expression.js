@@ -5,9 +5,9 @@ export const Expression = () => {
     const initialRule = {
         key: "age",
         output: {
-            value: 60,
+            value: 0,
             operator: ">=",
-            score: 50,
+            score: 0,
         },
     };
     const [rules, setRules] = useState([initialRule]);
